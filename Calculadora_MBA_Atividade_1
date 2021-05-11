@@ -1,0 +1,36 @@
+def calculate():
+    
+    n1 = int(input('Entre com o primeiro número: '))
+    n2 = int(input('Entre com o segundo número: '))
+    
+    operacao = input('''
+Digite a operação que deseja realizar
++ para adição
+- para subtração
+* para multiplicação
+/ para divisão
+** para exponenciação
+''')
+
+    if (n2 == 0):
+        print('Erro, segundo numero deve ser maior que 0')
+
+    elif operacao == '+':
+        print(n1 + n2)
+
+    elif operacao == '-':
+        print(n1 - n2)
+
+    elif operacao == '*':
+        print(n1 * n2)
+
+    elif operacao == '/':
+        print(n1 / n2)
+    
+    elif operacao == '**':
+        print(n1 ** n2)    
+
+    else:
+        print('Operação não suportada.')
+
+calculate()
