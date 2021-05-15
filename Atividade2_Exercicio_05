@@ -1,0 +1,12 @@
+# Exercicios_Python_MBA
+Exercicios realizados para a aula de Python
+
+#Exercicio 05
+
+import numpy as np
+
+print('''crie um array de números que vai de 0 a 1000.''')
+print("")
+
+lista = np.arange(0,1001)
+print(lista)
