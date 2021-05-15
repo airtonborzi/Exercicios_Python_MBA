@@ -4,10 +4,12 @@ Exercicios realizados para a aula de Python
 #Exercicio 03
 
 import numpy as np
-#A
 m = np.random.rand(5,7)
-#B
+
+#A
 m_transposta = m.T
+#B
+soma = m.sum(axis = 0).sum(axis = 0)
 #C
 soma_coluna = m.sum(axis = 0)
 #D
@@ -20,12 +22,12 @@ menor = m.min()
 print('''Criar uma matriz nxm (n = 5, m =7)''')
 print("")
 
-print("a): matriz[5,7]")
-print(m)
+print("a): matriz transposta")
+print(m_transposta)
 print("")
 
-print("b):matriz transposta")
-print(m_transposta)
+print("b):somar toda matriz")
+print(soma)
 print("")
 
 print("c): soma das colunas")
