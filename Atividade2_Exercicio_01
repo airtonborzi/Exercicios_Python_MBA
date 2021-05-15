@@ -1,0 +1,16 @@
+# Exercicios_Python_MBA
+Exercicios realizados para a aula de Python
+
+#Exercicio 01
+
+import math
+
+notas = [6,7,4,7,8,4,2,5,7,'hum','dois']
+  
+media = sum(notas[:9]) / len(notas[:9])
+
+print('''1-Você tem uma lista de número: [6,7,4,7,8,4,2,5,7,'hum', 'dois'].
+A ideia do exercício é tirar a média de todos os valores contidos na lista,
+porém para fazer o cálculo precisa remover as strings.''')
+print("")
+print(media)
