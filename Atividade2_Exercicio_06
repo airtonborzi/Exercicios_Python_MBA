@@ -1,0 +1,13 @@
+# Exercicios_Python_MBA
+Exercicios realizados para a aula de Python
+
+#Exercicio 06
+
+import numpy as np
+
+matriz_zeros =  np.zeros((5,5))
+
+print('''crie uma matriz só de zeros.
+''')
+print("")
+print(matriz_zeros)
